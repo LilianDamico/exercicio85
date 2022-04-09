@@ -6,7 +6,7 @@ while True:
     resp = str(input('Deseja continuar? [S/N] '))
     if resp in 'Nn':
         break
-for i, v in enumerate(num):
+for i, v in enumerate(num):                                                                                                  #indice e valor
     if v % 2 == 0:
         pares.append(v)
     elif v % 2 == 1:
